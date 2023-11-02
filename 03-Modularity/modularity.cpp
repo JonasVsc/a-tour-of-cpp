@@ -2,6 +2,7 @@
 #include"include/Vector.h"
 
 
+
 int main() {
 
     Vector a(20);
@@ -14,6 +15,7 @@ int main() {
     for(auto i = 0; i < 20; i++) {
         std::cout << "[" << i << "] " << a[i] << std::endl;
     }
+
 
     system("pause");
     return 0;

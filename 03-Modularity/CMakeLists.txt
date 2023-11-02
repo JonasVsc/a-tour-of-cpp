@@ -5,7 +5,8 @@ project(Modularity)
 include_directories(include)
 
 add_library(Vector Vector.cpp)
-add_executable(Modularity main.cpp)
+add_executable(Modularity modularity.cpp)
+add_executable(Namespace namespace.cpp)
 
 target_link_libraries(Modularity PUBLIC Vector)
 
